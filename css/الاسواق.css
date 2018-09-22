@@ -1,0 +1,36 @@
+
+/* Start breadcrumb */
+
+.my-breadcrumb
+{
+    direction: rtl;
+    font-size: 18px;
+    background-color: #aeaeae17;
+}
+
+/* End breadcrumb */
+
+/* Start article */
+
+.article
+{
+    margin-bottom: 30px
+}
+
+.article .card
+{
+    margin-bottom: 10px;
+    background: #f6f6f6;
+}
+
+.article .card img
+{
+    padding-top: 2%
+}
+
+.article .card h4
+{
+    color: #e41b17;
+    font-size: 1.8em
+}
+/* End article */

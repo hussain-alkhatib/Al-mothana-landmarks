@@ -1,0 +1,180 @@
+a:hover{
+    text-decoration: none
+}
+
+body{
+    background-color: #f0f3f6;
+}
+
+
+
+/* Start navbar */
+
+.my-nav
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.my-nav .navbar-brand
+{
+    font-size: 25px
+}
+
+.my-nav .navbar-brand span
+{
+    color: #e74c3c
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+ .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.show,
+   .navbar-dark .navbar-nav .show>.nav-link {
+    color: #e74c3c;
+}
+
+/* End navbar */
+
+/* Start slider */
+
+
+.slider
+{
+    background-color: #ddd;
+    margin-bottom: 40px;
+}
+
+.slider .carousel-inner .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4) ;
+    z-index: 2;
+}
+
+.slider .slider-control
+{
+    z-index: 3;
+}
+
+.slider .carousel-item
+{
+    background-size: cover;
+    
+}
+
+.slider .slide-one
+{
+    background-image: url("../images/warka.jpg");
+    background-repeat: no-repeat
+}
+
+.slider .slide-two
+{
+    background-image: url("../images/aswak.jpg")
+}
+
+.slider .slide-three
+{
+    background-image: url("../images/قصر\ الغدير.jpg")
+}
+
+.slider .slide-four
+{
+    background-image: url("../images/orok.jpg")
+}
+
+.slider .carousel-indicators li
+{
+    height: 8px;
+    cursor: pointer;
+    z-index: 3;
+    
+}
+
+
+/* End slider */
+
+/* Start title-page */
+
+.title-page h1
+{
+    font-size: 55px;
+    margin-bottom: 40px
+}
+
+.title-page h1 span
+{
+    color: #e74c3c
+}
+
+/* End title-page */
+
+
+/* Start section site */
+
+.section-site
+{
+    margin-bottom: 40px;
+}
+
+.section-site img
+{
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+/* End section site */
+
+/* Start footer */
+
+.footer
+{
+    text-align: right;
+    color: #f0f3f6;
+}
+.footer h2
+{
+   color:  #e41b17;
+   padding-top: 20px;
+}
+
+.two-columns
+{
+    overflow: hidden;
+}
+
+.two-columns li
+{
+    width: 50%;
+    float: right;
+    line-height: 1.8;
+}
+
+.footer li a 
+{
+    color: #aaa;
+}
+.footer li a:hover
+{
+    color: #fff;
+}
+
+.copyright
+{
+    font-weight: bold;
+    background: #333;
+    padding: 10px;
+}
+
+.copyright span
+{
+    color:  #e41b17;
+}
+
+/* End footer */
