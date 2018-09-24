@@ -141,7 +141,7 @@ body{
 .footer h2
 {
    color:  #e74c3c;
-   padding-top: 20px;
+   margin-top: 20px;
 }
 
 .two-columns
@@ -169,7 +169,7 @@ body{
 {
     font-weight: bold;
     background: #333;
-    padding: 10px;
+    padding: 5px;
 }
 
 .copyright span
